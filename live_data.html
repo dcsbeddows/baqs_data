@@ -15,16 +15,16 @@
 <div id="time">Loading...</div>
 
 <script>
-fetch("data.json")
-  .then(response => response.json())
-  .then(data => {
-      document.getElementById("time").textContent = data.time;
-  })
-  .catch(error => {
-      document.getElementById("time").textContent =
-          "Unable to load data";
-      console.error(error);
-  });
+function updateTime() {
+    fetch("data.json?t=" + Date.now())
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById("time").textContent = data.time;
+        });
+}
+
+updateTime();
+setInterval(updateTime, 10000);
 </script>
 
 </body>
