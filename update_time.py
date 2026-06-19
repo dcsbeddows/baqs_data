@@ -3,8 +3,8 @@ import base64
 from datetime import datetime
 
 # ===== CONFIG =====
-TOKEN = "PASTE_YOUR_TOKEN_HERE"
-USERNAME = "YOUR_GITHUB_USERNAME"
+TOKEN = "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"
+USERNAME = "dcsbeddows"
 REPO = "baqs_data"
 FILE_PATH = "data.json"
 
