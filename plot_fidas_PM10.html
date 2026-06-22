@@ -8,7 +8,7 @@ const buffer = await response.arrayBuffer();
 const reader = new NetCDFReader(buffer);
 
 const time = reader.getDataVariable("time");
-const pm25 = reader.getDataVariable("PM10");
+const pm10 = reader.getDataVariable("PM10");
 
 Plotly.newPlot("plot", [{
     x: time,
