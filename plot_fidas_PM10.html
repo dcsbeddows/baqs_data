@@ -1,23 +1,26 @@
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <script type="module">
 import { NetCDFReader } from "https://cdn.jsdelivr.net/npm/netcdfjs/+esm";
 
-const response = await fetch("fidas/PM/netcdf/BAQS_FIDAS_PM_concentration_201905_Ratified_v2.2.nc");
-const buffer = await response.arrayBuffer();
+async function loadData() {
+    try {
 
-const reader = new NetCDFReader(buffer);
+        const response = await fetch(
+            "fidas/PM/netcdf/BAQS_FIDAS_PM_concentration_201905_Ratified_v2.2.nc"
+        );
 
-const time = reader.getDataVariable("time");
-const pm10 = reader.getDataVariable("PM10");
+        console.log("Response status:", response.status);
 
-Plotly.newPlot("plot", [{
-    x: time,
-    y: pm10,
-    mode: "lines",
-    name: "PM2.5"
-}], {
-    title: "PM2.5 Time Series"
-});
+        const buffer = await response.arrayBuffer();
+
+        window.reader = new NetCDFReader(buffer);
+
+        console.log("Reader:", window.reader);
+        console.log("Variables:", window.reader.variables);
+
+    } catch (err) {
+        console.error("ERROR:", err);
+    }
+}
+
+loadData();
 </script>
-
-<div id="plot"></div>
