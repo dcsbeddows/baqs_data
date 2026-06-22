@@ -2,7 +2,7 @@
 <script type="module">
 import { NetCDFReader } from "https://cdn.jsdelivr.net/npm/netcdfjs/+esm";
 
-const response = await fetch("fidas/PM/netcdf/BAQS_FIDAS_PM_201905_hour_1.2.csv");
+const response = await fetch("fidas/PM/netcdf/BAQS_FIDAS_PM_concentration_201905_Ratified_v2.2.nc");
 const buffer = await response.arrayBuffer();
 
 const reader = new NetCDFReader(buffer);
