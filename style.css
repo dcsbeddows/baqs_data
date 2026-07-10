@@ -86,6 +86,7 @@ footer {
 }
 
 sub {
-    vertical-align: baseline;
-    font-size: 100%;
+    position: relative;
+    top: 0.3em;
+    font-size: 0.75em;
 }
