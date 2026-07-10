@@ -1,0 +1,178 @@
+<h1>WINDMASTER Sonic Anemometer Data</h1>
+1590-PK-020/W
+
+<ul>
+	<li>u(m/s)</li>
+	<li>v(m/s)</li>
+	<li>w(m/s)</li>
+	<li>speed_(m/s)</li>
+	<li>direction_(deg)</li>
+</ul>
+
+[Auxilary Data: Not Ratified.]
+
+<h2>CSV Files</h2>
+<ul id="csv-file-list"></ul>
+
+<h2>NetCDF Files</h2>
+<ul id="netcdf-file-list"></ul>
+
+<script>
+const sources = [
+    {
+        path: "sonic/csv",
+        extensions: [".csv"],
+        listId: "csv-file-list",
+        title: "CSV"
+    },
+    {
+        path: "sonic/netcdf",
+        extensions: [".nc", ".nc4", ".cdf"],
+        listId: "netcdf-file-list",
+        title: "NetCDF"
+    }
+];
+
+/*
+  IMPORTANT:
+  No GitHub API used anymore.
+  You maintain file lists manually here.
+*/
+const fileIndex = {
+    "sonic/csv": [
+        // Add CSV filenames here
+		"c:\Github\baqs_data\sonic\csv\Wind_2020-07_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2020-08_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2020-09_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2020-10_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2020-11_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2020-12_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2021-01_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2021-04_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2021-05_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2021-06_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2021-07_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2021-08_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2021-09_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2021-10_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2021-11_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2021-12_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2022-01_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2022-02_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2022-03_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2022-04_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2022-05_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2022-06_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2022-07_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2022-08_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2022-09_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2022-10_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2022-11_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2022-12_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2023-01_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2023-02_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2023-03_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2023-04_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2023-05_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2023-06_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2023-07_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2023-08_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2023-09_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2023-10_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2023-11_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2024-01_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2024-02_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2024-03_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2024-04_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2024-05_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2024-06_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2024-07_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2024-08_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2024-09_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2024-10_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2024-11_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2024-12_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2025-01_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2025-02_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2025-03_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2025-04_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2025-05_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2025-06_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2025-07_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2025-08_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2025-09_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2025-10_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2025-11_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2025-12_hour_v1.1.csv",
+		"c:\Github\baqs_data\sonic\csv\Wind_2026-01_hour_v1.1.csv"
+    ],
+    "sonic/netcdf": [
+        // Add NetCDF filenames here
+    ]
+};
+
+sources.forEach(source => {
+
+    const list = document.getElementById(source.listId);
+    const files = fileIndex[source.path] || [];
+
+    const filtered = files
+        .filter(file =>
+            source.extensions.some(ext =>
+                file.toLowerCase().endsWith(ext)
+            )
+        )
+        .sort();
+
+    if (filtered.length === 0) {
+        const li = document.createElement("li");
+        li.textContent = `No ${source.title} files found`;
+        list.appendChild(li);
+        return;
+    }
+
+    filtered.forEach(file => {
+
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+
+        const rawUrl =
+            `https://raw.githubusercontent.com/dcsbeddows/baqs_data/main/${source.path}/${file}`;
+
+        a.href = "#";
+        a.textContent = file;
+
+        a.addEventListener("click", async (e) => {
+            e.preventDefault();
+
+            try {
+                const response = await fetch(rawUrl);
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+
+                const blob = await response.blob();
+                const blobUrl = URL.createObjectURL(blob);
+
+                const downloadLink = document.createElement("a");
+                downloadLink.href = blobUrl;
+                downloadLink.download = file;
+
+                document.body.appendChild(downloadLink);
+                downloadLink.click();
+                document.body.removeChild(downloadLink);
+
+                URL.revokeObjectURL(blobUrl);
+
+            } catch (error) {
+                console.error(`Download failed for ${file}:`, error);
+                alert(`Unable to download ${file}`);
+            }
+        });
+
+        li.appendChild(a);
+        list.appendChild(li);
+    });
+});
+</script>
