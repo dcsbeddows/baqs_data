@@ -1,81 +1,41 @@
 "Elements","2-2020"
-"Al_Concentration (ng/m3)","1030"
-"Al_Concentration Uncertainty (ng/m3)",NA
-"Si_Concentration (ng/m3)","5.82"
-"Si_Concentration Uncertainty (ng/m3)",NA
-"P_Concentration (ng/m3)","0.0771"
-"P_Concentration Uncertainty (ng/m3)",NA
-"S_Concentration (ng/m3)","262"
-"S_Concentration Uncertainty (ng/m3)",NA
-"Cl_Concentration (ng/m3)","3310"
-"Cl_Concentration Uncertainty (ng/m3)",NA
-"K_Concentration (ng/m3)","92.6"
-"K_Concentration Uncertainty (ng/m3)",NA
-"Ca_Concentration (ng/m3)","130"
-"Ca_Concentration Uncertainty (ng/m3)",NA
-"Ti_Concentration (ng/m3)","2.66"
-"Ti_Concentration Uncertainty (ng/m3)",NA
-"V_Concentration (ng/m3)","0.0672"
-"V_Concentration Uncertainty (ng/m3)",NA
-"Cr_Concentration (ng/m3)","80.8"
-"Cr_Concentration Uncertainty (ng/m3)",NA
-"Mn_Concentration (ng/m3)","1.58"
-"Mn_Concentration Uncertainty (ng/m3)",NA
-"Fe_Concentration (ng/m3)","118"
-"Fe_Concentration Uncertainty (ng/m3)",NA
-"Co_Concentration (ng/m3)","0.0310"
-"Co_Concentration Uncertainty (ng/m3)",NA
-"Ni_Concentration (ng/m3)","0.0319"
-"Ni_Concentration Uncertainty (ng/m3)",NA
-"Cu_Concentration (ng/m3)","33.8"
-"Cu_Concentration Uncertainty (ng/m3)",NA
-"Zn_Concentration (ng/m3)","8.01"
-"Zn_Concentration Uncertainty (ng/m3)",NA
-"Ga_Concentration (ng/m3)","0.000612"
-"Ga_Concentration Uncertainty (ng/m3)",NA
+"Al_Concentration (ng/m3)","625"
+"Si_Concentration (ng/m3)","3.52"
+"P_Concentration (ng/m3)","0.0912"
+"S_Concentration (ng/m3)","217"
+"Cl_Concentration (ng/m3)","3350"
+"K_Concentration (ng/m3)","77.9"
+"Ca_Concentration (ng/m3)","120"
+"Ti_Concentration (ng/m3)","2.06"
+"V_Concentration (ng/m3)","0.0770"
+"Cr_Concentration (ng/m3)","0.156"
+"Mn_Concentration (ng/m3)","0.415"
+"Fe_Concentration (ng/m3)","84.0"
+"Co_Concentration (ng/m3)","0.0319"
+"Ni_Concentration (ng/m3)","0.0263"
+"Cu_Concentration (ng/m3)","3.59"
+"Zn_Concentration (ng/m3)","5.27"
+"Ga_Concentration (ng/m3)","0.000724"
 "Ge_Concentration (ng/m3)","0"
-"Ge_Concentration Uncertainty (ng/m3)",NA
-"As_Concentration (ng/m3)","0.861"
-"As_Concentration Uncertainty (ng/m3)",NA
-"Se_Concentration (ng/m3)","0.134"
-"Se_Concentration Uncertainty (ng/m3)",NA
-"Br_Concentration (ng/m3)","7.08"
-"Br_Concentration Uncertainty (ng/m3)",NA
-"Sr_Concentration (ng/m3)","1.42"
-"Sr_Concentration Uncertainty (ng/m3)",NA
-"Y_Concentration (ng/m3)","1.35"
-"Y_Concentration Uncertainty (ng/m3)",NA
-"Zr_Concentration (ng/m3)","0.200"
-"Zr_Concentration Uncertainty (ng/m3)",NA
-"Mo_Concentration (ng/m3)","0.00947"
-"Mo_Concentration Uncertainty (ng/m3)",NA
-"Pd_Concentration (ng/m3)","6.74"
-"Pd_Concentration Uncertainty (ng/m3)",NA
-"Ag_Concentration (ng/m3)","0.134"
-"Ag_Concentration Uncertainty (ng/m3)",NA
-"Cd_Concentration (ng/m3)","4350"
-"Cd_Concentration Uncertainty (ng/m3)",NA
-"In_Concentration (ng/m3)","0.102"
-"In_Concentration Uncertainty (ng/m3)",NA
-"Sn_Concentration (ng/m3)","5.59"
-"Sn_Concentration Uncertainty (ng/m3)",NA
-"Sb_Concentration (ng/m3)","52.5"
-"Sb_Concentration Uncertainty (ng/m3)",NA
-"Te_Concentration (ng/m3)","10.4"
-"Te_Concentration Uncertainty (ng/m3)",NA
-"Ba_Concentration (ng/m3)","1.46"
-"Ba_Concentration Uncertainty (ng/m3)",NA
-"La_Concentration (ng/m3)","0.00358"
-"La_Concentration Uncertainty (ng/m3)",NA
-"Ce_Concentration (ng/m3)","0.0201"
-"Ce_Concentration Uncertainty (ng/m3)",NA
-"Pt_Concentration (ng/m3)","0.000168"
-"Pt_Concentration Uncertainty (ng/m3)",NA
-"Hg_Concentration (ng/m3)","0.00664"
-"Hg_Concentration Uncertainty (ng/m3)",NA
-"Tl_Concentration (ng/m3)","0.155"
-"Tl_Concentration Uncertainty (ng/m3)",NA
-"Pb_Concentration (ng/m3)","251"
-"Pb_Concentration Uncertainty (ng/m3)",NA
-"Bi_Concentration (ng/m3)","0.000255"
-"Bi_Concentration Uncertainty (ng/m3)",NA
+"As_Concentration (ng/m3)","0.591"
+"Se_Concentration (ng/m3)","0.0280"
+"Br_Concentration (ng/m3)","6.71"
+"Sr_Concentration (ng/m3)","1.39"
+"Y_Concentration (ng/m3)","0"
+"Zr_Concentration (ng/m3)","0.0125"
+"Mo_Concentration (ng/m3)","0.0111"
+"Pd_Concentration (ng/m3)","7.01"
+"Ag_Concentration (ng/m3)","0.152"
+"Cd_Concentration (ng/m3)","1.01"
+"In_Concentration (ng/m3)","0.117"
+"Sn_Concentration (ng/m3)","5.91"
+"Sb_Concentration (ng/m3)","4.34"
+"Te_Concentration (ng/m3)","10.8"
+"Ba_Concentration (ng/m3)","0.718"
+"La_Concentration (ng/m3)","0.00423"
+"Ce_Concentration (ng/m3)","0.0237"
+"Pt_Concentration (ng/m3)","0.000199"
+"Hg_Concentration (ng/m3)","0.00237"
+"Tl_Concentration (ng/m3)","0"
+"Pb_Concentration (ng/m3)","1.56"
+"Bi_Concentration (ng/m3)","0.000301"
