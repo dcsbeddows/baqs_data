@@ -52,30 +52,6 @@ header p {
 
 .links a {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;   /* Centre the text */
-    gap: 2px;             /* Small space between the two lines */
-
-    min-height: 70px;
-    padding: 12px;
-
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: 600;
-
-    color: white;
-    background: #0077cc;
-    border-radius: 10px;
-
-    transition: all 0.25s ease;
-}
-
-/*
-.links a {
-    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 70px;
@@ -91,7 +67,6 @@ header p {
 
     transition: all 0.25s ease;
 }
-*/
 
 .links a:hover {
     background: #005fa3;
@@ -110,10 +85,8 @@ footer {
     margin-top: 40px;
 }
 
-/*
 sub {
     position: relative;
     top: 0.3em;
     font-size: 0.75em;
 }
-*/
