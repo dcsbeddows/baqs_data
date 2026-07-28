@@ -4,14 +4,12 @@
     box-sizing: border-box;
 }
 
-/*
 body {
     font-family: "Segoe UI", Arial, sans-serif;
     background: linear-gradient(135deg, #eef5fb, #d9e8f5);
     color: #333;
     min-height: 100vh;
 }
-*/
 
 header {
     background: #003b70;
@@ -87,8 +85,10 @@ footer {
     margin-top: 40px;
 }
 
+/*
 sub {
     position: relative;
     top: 0.3em;
     font-size: 0.75em;
 }
+*/
