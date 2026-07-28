@@ -52,10 +52,12 @@ header p {
 
 .links a {
     display: block;
-    text-align: center;
 
     min-height: 70px;
     padding: 12px;
+
+    text-align: center;
+    line-height: 1.4;
 
     text-decoration: none;
     font-size: 1rem;
@@ -64,8 +66,6 @@ header p {
     color: white;
     background: #0077cc;
     border-radius: 10px;
-
-    line-height: 1.4;
 
     transition: all 0.25s ease;
 }
@@ -88,10 +88,8 @@ footer {
     margin-top: 40px;
 }
 
-/*
 sub {
     position: relative;
     top: 0.3em;
     font-size: 0.75em;
 }
-*/
