@@ -50,7 +50,6 @@ header p {
     gap: 18px;
 }
 
-
 .links a {
     display: flex;
     justify-content: center;
@@ -68,7 +67,6 @@ header p {
 
     transition: all 0.25s ease;
 }
-
 
 .links a:hover {
     background: #005fa3;
