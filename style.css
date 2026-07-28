@@ -52,6 +52,14 @@ header p {
 
 .links a {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+.links a {
+    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 70px;
@@ -67,6 +75,7 @@ header p {
 
     transition: all 0.25s ease;
 }
+*/
 
 .links a:hover {
     background: #005fa3;
