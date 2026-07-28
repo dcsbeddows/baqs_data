@@ -90,6 +90,6 @@ footer {
 
 sub {
     position: relative;
-    top: 0.01em;
+    top: 0.001em;
     font-size: 0.75em;
 }
