@@ -51,13 +51,8 @@ header p {
 }
 
 .links a {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;   /* Centre the text */
-    gap: 2px;             /* Small space between the two lines */
+    display: block;
+    text-align: center;
 
     min-height: 70px;
     padding: 12px;
@@ -70,8 +65,11 @@ header p {
     background: #0077cc;
     border-radius: 10px;
 
+    line-height: 1.4;
+
     transition: all 0.25s ease;
 }
+
 
 .links a:hover {
     background: #005fa3;
