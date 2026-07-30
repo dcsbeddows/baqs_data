@@ -102,9 +102,16 @@ sub {
     line-height: 0;
 }
 
+/*
 sup {
     font-size: 0.7em;
     vertical-align: super;
     line-height: 0;
 }
+*/
 
+sup {
+    color: red;
+    font-size: 200%;
+    background: yellow;
+}
