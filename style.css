@@ -88,6 +88,14 @@ footer {
     margin-top: 40px;
 }
 
+/*
+sub {
+    position: relative;
+    top: 0.000000000000001em;
+    font-size: 0.75em;
+}
+*/
+
 sub {
     font-size: 0.7em;
     vertical-align: sub;
