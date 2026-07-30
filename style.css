@@ -93,3 +93,9 @@ sub {
     top: 0.000000000000001em;
     font-size: 0.75em;
 }
+
+sup {
+    position: relative;
+    top: -0.00005em;
+    font-size: 0.75em;
+}
