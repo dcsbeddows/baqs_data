@@ -5,8 +5,7 @@ sub {
 }
 
 sup {
-    font-size: 0.7em;
-    vertical-align: super;
-    line-height: 0;
+    color: red;
+    font-size: 2em;
 }
 
