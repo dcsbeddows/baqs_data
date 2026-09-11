@@ -23,6 +23,9 @@
 <h2>CSV Files</h2>
 <ul id="csv-file-list"></ul>
 
+<h2>CSV Files (pre_QAQC)</h2>
+<ul id="pre-qaqc-csv-file-list"></ul>
+
 <h2>NetCDF Files</h2>
 <ul id="netcdf-file-list"></ul>
 
@@ -36,9 +39,9 @@ const sources = [
     },
 const sources = [
     {
-        path: "acsm/pre_qaqc_csv",
+        path: "acsm/csv_pre_qaqc",
         extensions: [".csv"],
-        listId: "csv-file-list",
+        listId: "pre-qaqc-csv-file-list",
         title: "pre_QAQC_CSV"
     },	
     {
@@ -143,7 +146,7 @@ const fileIndex = {
     ],
 	
 	const fileIndex = {
-    "acsm/pre_qaqc_csv": [
+    "acsm/csv_pre_qaqc": [
         // Add CSV filenames here
     ],
 
